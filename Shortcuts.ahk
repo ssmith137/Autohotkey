@@ -1,4 +1,7 @@
-﻿;CapsLock::Esc
+; ---------- Personal snippets (not tracked in Git) ----------
+#Include Snippets.ahk
+
+;CapsLock::Esc
 ;Esc::CapsLock
 
 ; ----------- Maximize focused window (Enter) -----------
@@ -240,95 +243,6 @@ else
     Run, ms-settings.exe
 return
 
-; ---------- Ticket Resolution (ttysr) ----------
-:*:ttysr::
-(
-The ticket you submitted requested assistance with
-To resolve this, we
-
-As always, if you have any questions or need assistance, feel free to put in a ticket and we will reach out!
-
-Enjoy the rest of your week!
---------------------------------------------
-There is no need to respond to this email unless you have additional questions or concerns about this ticket.
-
-Spencer Smith
-Software Consultant
-Help@mysoftwaresolutions.com
-513-932-6667
-Fax 513-932-4058
-www.MySoftwareSolutions.com
-)
-
-; ---------- Insert Signature (inssig) ----------
-:*:inssig::
-(
-Spencer Smith
-Software Consultant
-Help@mysoftwaresolutions.com
-513-932-6667
-Fax 513-932-4058
-www.MySoftwareSolutions.com
-)
-
-; ---------- Sorry My Call Missed You -------------------
-:*:smcmy::
-(
-Sorry my call missed you, whenever you get a chance simply reply to your ticket and I will reach back out!
-
-Spencer Smith
-Software Consultant
-Help@mysoftwaresolutions.com
-513-932-6667
-Fax 513-932-4058
-www.MySoftwareSolutions.com
-)
-
-; ---------- Project Ticket ---------------
-:*:projtick::
-(
-I'm reaching out because I have a project for your Analytics training and would like to see if there is a time that works for you to get started!
-
-The training consists of 6 one-hour hands-on training sessions over zoom.
-
-Please reply to this ticket and let me know what days work for you and we can get it scheduled!
-
-Spencer Smith
-Software Consultant
-Help@mysoftwaresolutions.com
-513-932-6667
-Fax 513-932-4058
-www.MySoftwareSolutions.com
-)
-
-; ---------- Configured Cloud Analytics Resolution --------------
-:*:confres::
-(
-Configured Layer Parameters
-Configured Layer Parameters in the Data Generator
-Configured Variables - Appropriation Levels
-Configured Variables - Certificate
-Configured Variables - Personnel Link
-Changed General Ledger Layout to 2 widget
-Set Expense Report as default report for all users
-Removed Filters from budget entry screens
-Changed Mixed Filter Color to yellow
-Set General Ledger as favorite for everyone role
-)
-
-; ---------- Create Cloud Analytics User Resolution -------------
-:*:crusres::
-(
-Created primary user
-Created Admin - Entity role
-Created Startup Filters role
-Assigned primary user to Admin - Entity role
-Assigned all users to Startup Filters role
-Assigned permissions for Everyone role
-Assigned permissions for Admin - Entity role
-Assigned permissions for SSI role
-Assigned permissions for Startup Filters Role
-)
 
 ; ---------- Toggle Opacity ----------------
 ; Win + Ctrl + O toggles opacity between 220 and 255
