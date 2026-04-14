@@ -25,7 +25,7 @@ return
         Send, #^i
     }
     else
-        Run, C:\Program Files\WindowsApps\Claude_1.1062.0.0_x64__pzs8sxrjxfjjc\app\claude.exe
+        Run, C:\Program Files\WindowsApps\Claude_1.1617.0.0_x64__pzs8sxrjxfjjc\app\claude.exe
 return
 
 ; ----------- Browser (Brave) (b) -----------
@@ -236,11 +236,11 @@ return
 
 ; ---------- Windows Settings (;) ----------
 #;::
-    IfWinExist, ahk_exe ms-settings.exe
+    IfWinExist, ahk_exe SystemSettings.exe
         {
-            WinActivateBottom, ahk_exe ms-settings.exe
+            WinActivateBottom, ahk_exe SystemSettings.exe
             Send, #^i
         }
 else
-    Run, ms-settings.exe
+    Run, ms-settings:
 return
